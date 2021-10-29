@@ -45,7 +45,7 @@ namespace Treasure_Hunt
                 }
 
 
-                Console.WriteLine(PosRow + " " + PosCol);
+                
                 Console.Write("\nEnter a guess for the row:");
                 int rowGuess = 0;
                 Input(ref rowGuess, 19);
