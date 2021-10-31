@@ -32,13 +32,13 @@ namespace Treasure_Hunt
             {
                 Console.Clear();
                 
-                for (int i = 0; i < RowLength; i++)
+                for (int i = 0; i < colLength; i++)
                 {
                     
-                    for (int j = 0; j < colLength; j++)
+                    for (int j = 0; j < RowLength; j++)
                     {
                         
-                        Console.Write(" {0}", Island1[j, i]);
+                        Console.Write(" {0}", Island1[i, j]);
                     }
                     Console.Write("\n");
 
